@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2">
+    <title>BioShield - Project Simulation</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/javascript/main.js" defer></script>
+</head>
+<body class="dark-theme">
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <section class="sim-world-anchor" aria-hidden="true"></section>
+    <button id="nation_add">+ ADD NATION</button>
+    <button id="radar-start" class="global-sim-btn">Start Simulation</button>
+    <button id="radar-stop" class="global-sim-btn stop">Stop Simulation</button>
+    <div id="deployment-pill" class="deployment-pill" aria-live="polite">Deployed countries: 1/4</div>
+        <div id="body-notification" class="notifications-container" role="status" aria-live="assertive" hidden>
+            <div class="error-alert">
+                <button id="notification-close" class="notification-close" type="button" aria-label="Dismiss notification">×</button>
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="error-svg">
+                            <path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" fill-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <div class="error-prompt-container">
+                        <p id="notification-heading" class="error-prompt-heading">Simulation Alert</p>
+                        <div class="error-prompt-wrap">
+                            <ul id="notification-list" class="error-prompt-list" role="list">
+                                <li>Awaiting notification.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <svg id="network-canvas"></svg>
+
+    <div id="nation-list"></div>
+
+    <div id="simulation-panel" class="side-panel simulation-panel" aria-hidden="true">
+        <button id="minimize-simulation" class="simulation-min-btn" type="button" aria-label="Minimize simulation panel">−</button>
+        <button id="start-simulation" class="simulation-toggle-btn" type="button">Start Simulation</button>
+        <button id="stop-simulation" class="simulation-toggle-btn stop" type="button">Stop Simulation</button>
+        <div id="deployment-badge" class="deployment-badge" aria-live="polite">Deployed countries: 1/4</div>
+        <button id="resolve-pandemic" class="simulation-toggle-btn resolve-btn" type="button" hidden>Resolve Pandemic Alert</button>
+
+        <div id="simulation-content">
+            <h2 id="simulation-title">
+                <span id="simulation-title-text">Radar Mode</span>
+                <span class="cursor-blink">▋</span>
+            </h2>
+
+            <p id="simulation-summary">
+                Choose a disease and a nation, then start an automatic bio-response loop.
+            </p>
+
+            <div class="control-block">
+                <label for="target-nation" class="control-label">Target nation</label>
+                <select id="target-nation" class="control-select"></select>
+            </div>
+
+            <div class="control-block">
+                <div class="control-row">
+                    <span class="control-label">Additional nations</span>
+                    <span id="additional-target-count" class="control-meta">0 selected</span>
+                </div>
+                <div id="target-nations-list" class="target-nations-list"></div>
+            </div>
+
+            <div class="control-block">
+                <label class="control-label">Clinic targets per nation</label>
+                <div id="clinic-target-grid" class="clinic-target-grid"></div>
+            </div>
+
+            <div class="control-block">
+                <label for="disease-search" class="control-label">Search diseases</label>
+                <input id="disease-search" class="control-input" type="search" placeholder="Type to filter diseases">
+            </div>
+
+            <div class="control-block">
+                <div class="control-row">
+                    <span class="control-label">Diseases</span>
+                    <span id="disease-count" class="control-meta">0 loaded</span>
+                </div>
+                <div id="disease-list" class="disease-list"></div>
+            </div>
+
+            <div class="control-block">
+                <button id="spread-selected" class="run-alert-btn spread-btn" type="button">Spread Selected Disease</button>
+            </div>
+
+            <div class="control-block">
+                <div class="control-row">
+                    <span class="control-label">Simulation status</span>
+                    <span id="simulation-state" class="control-meta">Idle</span>
+                </div>
+                <div id="simulation-log" class="simulation-log">Waiting for input...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="side-card" class="side-panel" aria-hidden="true">
+        <button id="close-card" class="close-btn" type="button" aria-label="Close details">×</button>
+        <div id="card-content">
+            <h2 id="card-title">
+                <span id="card-title-text">Nation Name</span>
+                <span class="cursor-blink">▋</span>
+            </h2>
+
+            <div class="card-flag-box">
+                <img id="card-flag" src="https://flagcdn.com/w320/in.png" alt="Nation flag">
+            </div>
+
+            <div id="card-data">
+                Stats go here...
+            </div>
+
+            <div class="progress-wrap">
+                <div class="progress-header">
+                    <span>Circulation Progress</span>
+                    <span id="progress-value">0%</span>
+                </div>
+                <div class="progress-track">
+                    <div id="report-progress" class="progress-fill"></div>
+                </div>
+            </div>
+
+            <button id="run-alert" class="run-alert-btn" type="button">Simulate Disease Alert</button>
+
+            <div id="clinic-list" class="clinic-list"></div>
+
+            <div class="warning-footer">
+                <span class="dot"></span>
+                <span><strong class="warning-label">WARNING:</strong> Unauthorized access will be reported</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="second-world" class="second-world" aria-label="Secondary world section">
+        <div class="second-world-shell">
+            <p class="second-world-kicker">Design thinking and innovation</p>
+            <h2 class="second-world-title">Our team Members</h2>
+            <p class="second-world-copy">
+                Welcome, below are the names of every team member of the Project BioShield
+            </p>
+            <div class="second-world-grid">
+                <article class="second-world-card">
+                    <h3>Krish Srivastava</h3>
+                    <p>Development & Prototype</p>
+                </article>
+                <article class="second-world-card">
+                    <h3>Harsh Agarwal</h3>
+                    <p>Presentations</p>
+                </article>
+                <article class="second-world-card">
+                    <h3>Suhani Thakur</h3>
+                    <p>Management & Lead Researcher</p>
+                </article>
+                <article class="second-world-card">
+                    <h3>Vanshika Saini</h3>
+                    <p>Artist & Branding</p>
+                </article>
+                <article class="second-world-card">
+                    <h3>Jasmeen Kaur</h3>
+                    <p>Lead of Arts & Crafts</p>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

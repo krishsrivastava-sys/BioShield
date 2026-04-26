@@ -1,0 +1,17 @@
+{
+  "name": "bioshield",
+  "version": "1.0.0",
+  "description": "A simple website that simulates a distributed systems idea.",
+  "license": "ISC",
+  "author": "krishsrivastava_dev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    ".": "node index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,507 @@
+[
+    {
+        "name": "pakistan",
+        "total_affiliated": 2,
+        "image": "https://flagcdn.com/w320/pk.png"
+    },
+    {
+        "name": "united states",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/us.png"
+    },
+    {
+        "name": "canada",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/ca.png"
+    },
+    {
+        "name": "mexico",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/mx.png"
+    },
+    {
+        "name": "brazil",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/br.png"
+    },
+    {
+        "name": "argentina",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/ar.png"
+    },
+    {
+        "name": "chile",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/cl.png"
+    },
+    {
+        "name": "colombia",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/co.png"
+    },
+    {
+        "name": "peru",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/pe.png"
+    },
+    {
+        "name": "venezuela",
+        "total_affiliated": 2,
+        "image": "https://flagcdn.com/w320/ve.png"
+    },
+    {
+        "name": "uruguay",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/uy.png"
+    },
+    {
+        "name": "paraguay",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/py.png"
+    },
+    {
+        "name": "bolivia",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/bo.png"
+    },
+    {
+        "name": "ecuador",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/ec.png"
+    },
+    {
+        "name": "guatemala",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/gt.png"
+    },
+    {
+        "name": "costa rica",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/cr.png"
+    },
+    {
+        "name": "panama",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/pa.png"
+    },
+    {
+        "name": "dominican republic",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/do.png"
+    },
+    {
+        "name": "cuba",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/cu.png"
+    },
+    {
+        "name": "jamaica",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/jm.png"
+    },
+    {
+        "name": "haiti",
+        "total_affiliated": 1,
+        "image": "https://flagcdn.com/w320/ht.png"
+    },
+    {
+        "name": "united kingdom",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+        "name": "ireland",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/ie.png"
+    },
+    {
+        "name": "france",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/fr.png"
+    },
+    {
+        "name": "germany",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/de.png"
+    },
+    {
+        "name": "netherlands",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/nl.png"
+    },
+    {
+        "name": "belgium",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/be.png"
+    },
+    {
+        "name": "luxembourg",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/lu.png"
+    },
+    {
+        "name": "switzerland",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/ch.png"
+    },
+    {
+        "name": "austria",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/at.png"
+    },
+    {
+        "name": "italy",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/it.png"
+    },
+    {
+        "name": "spain",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/es.png"
+    },
+    {
+        "name": "portugal",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/pt.png"
+    },
+    {
+        "name": "norway",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/no.png"
+    },
+    {
+        "name": "sweden",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/se.png"
+    },
+    {
+        "name": "denmark",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/dk.png"
+    },
+    {
+        "name": "finland",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/fi.png"
+    },
+    {
+        "name": "iceland",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/is.png"
+    },
+    {
+        "name": "poland",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/pl.png"
+    },
+    {
+        "name": "czech republic",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/cz.png"
+    },
+    {
+        "name": "slovakia",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/sk.png"
+    },
+    {
+        "name": "hungary",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/hu.png"
+    },
+    {
+        "name": "romania",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/ro.png"
+    },
+    {
+        "name": "bulgaria",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/bg.png"
+    },
+    {
+        "name": "greece",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/gr.png"
+    },
+    {
+        "name": "croatia",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/hr.png"
+    },
+    {
+        "name": "serbia",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/rs.png"
+    },
+    {
+        "name": "bosnia and herzegovina",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/ba.png"
+    },
+    {
+        "name": "slovenia",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/si.png"
+    },
+    {
+        "name": "estonia",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/ee.png"
+    },
+    {
+        "name": "latvia",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/lv.png"
+    },
+    {
+        "name": "lithuania",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/lt.png"
+    },
+    {
+        "name": "ukraine",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/ua.png"
+    },
+    {
+        "name": "belarus",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/by.png"
+    },
+    {
+        "name": "russia",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/ru.png"
+    },
+    {
+        "name": "turkey",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/tr.png"
+    },
+    {
+        "name": "saudi arabia",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/sa.png"
+    },
+    {
+        "name": "united arab emirates",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/ae.png"
+    },
+    {
+        "name": "qatar",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/qa.png"
+    },
+    {
+        "name": "kuwait",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/kw.png"
+    },
+    {
+        "name": "bahrain",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/bh.png"
+    },
+    {
+        "name": "oman",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/om.png"
+    },
+    {
+        "name": "israel",
+        "total_affiliated": 9,
+        "image": "https://flagcdn.com/w320/il.png"
+    },
+    {
+        "name": "jordan",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/jo.png"
+    },
+    {
+        "name": "lebanon",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/lb.png"
+    },
+    {
+        "name": "iraq",
+        "total_affiliated": 3,
+        "image": "https://flagcdn.com/w320/iq.png"
+    },
+    {
+        "name": "iran",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/ir.png"
+    },
+    {
+        "name": "egypt",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/eg.png"
+    },
+    {
+        "name": "morocco",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/ma.png"
+    },
+    {
+        "name": "algeria",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/dz.png"
+    },
+    {
+        "name": "tunisia",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/tn.png"
+    },
+    {
+        "name": "libya",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/ly.png"
+    },
+    {
+        "name": "south africa",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/za.png"
+    },
+    {
+        "name": "nigeria",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/ng.png"
+    },
+    {
+        "name": "kenya",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/ke.png"
+    },
+    {
+        "name": "ethiopia",
+        "total_affiliated": 3,
+        "image": "https://flagcdn.com/w320/et.png"
+    },
+    {
+        "name": "ghana",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/gh.png"
+    },
+    {
+        "name": "tanzania",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/tz.png"
+    },
+    {
+        "name": "uganda",
+        "total_affiliated": 3,
+        "image": "https://flagcdn.com/w320/ug.png"
+    },
+    {
+        "name": "rwanda",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/rw.png"
+    },
+    {
+        "name": "senegal",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/sn.png"
+    },
+    {
+        "name": "cote d'ivoire",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/ci.png"
+    },
+    {
+        "name": "cameroon",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/cm.png"
+    },
+    {
+        "name": "democratic republic of the congo",
+        "total_affiliated": 2,
+        "image": "https://flagcdn.com/w320/cd.png"
+    },
+    {
+        "name": "angola",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/ao.png"
+    },
+    {
+        "name": "namibia",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/na.png"
+    },
+    {
+        "name": "botswana",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/bw.png"
+    },
+    {
+        "name": "zambia",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/zm.png"
+    },
+    {
+        "name": "mozambique",
+        "total_affiliated": 3,
+        "image": "https://flagcdn.com/w320/mz.png"
+    },
+    {
+        "name": "australia",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/au.png"
+    },
+    {
+        "name": "new zealand",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/nz.png"
+    },
+    {
+        "name": "japan",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/jp.png"
+    },
+    {
+        "name": "south korea",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/kr.png"
+    },
+    {
+        "name": "china",
+        "total_affiliated": 8,
+        "image": "https://flagcdn.com/w320/cn.png"
+    },
+    {
+        "name": "bangladesh",
+        "total_affiliated": 4,
+        "image": "https://flagcdn.com/w320/bd.png"
+    },
+    {
+        "name": "sri lanka",
+        "total_affiliated": 5,
+        "image": "https://flagcdn.com/w320/lk.png"
+    },
+    {
+        "name": "nepal",
+        "total_affiliated": 3,
+        "image": "https://flagcdn.com/w320/np.png"
+    },
+    {
+        "name": "indonesia",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/id.png"
+    },
+    {
+        "name": "malaysia",
+        "total_affiliated": 7,
+        "image": "https://flagcdn.com/w320/my.png"
+    },
+    {
+        "name": "philippines",
+        "total_affiliated": 6,
+        "image": "https://flagcdn.com/w320/ph.png"
+    },
+    {
+        "name": "singapore",
+        "total_affiliated": 10,
+        "image": "https://flagcdn.com/w320/sg.png"
+    }
+]
